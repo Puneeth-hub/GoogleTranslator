@@ -1,0 +1,40 @@
+.main-contianer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(grey,white, lightblue);
+  height: 100vh;
+}
+
+.app-header{
+  text-align: center;
+  padding: 20px;
+}
+
+.header{
+  font-family: 'Azeret Mono', monospace;
+  font-size: 30px;
+}
+
+.app-body{
+  padding: 20px;
+  text-align: center;
+}
+
+.language-select{
+  height: 40px !important;
+  margin-bottom: 15px;
+  outline: none !important;
+}
+.buton{
+  color: white;
+  background-color: black;
+  height: 40px;
+  width: 80px;
+}
+.textarea-line{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 15px;
+}
